@@ -146,18 +146,14 @@
   to verify the access to the reviewer googlesheet.</p>
     </div>
 
-    <pre class="usage"><span class='fu'>match_keywords</span><span class='op'>(</span><span class='va'>id</span>, n <span class='op'>=</span> <span class='fl'>5</span><span class='op'>)</span>
-
-<span class='fu'>get_article_keywords</span><span class='op'>(</span><span class='va'>id</span><span class='op'>)</span>
-
-<span class='fu'>get_reviewer_keywords</span><span class='op'>(</span><span class='op'>)</span></pre>
+    <pre class="usage"><span class='fu'>match_keywords</span><span class='op'>(</span><span class='va'>id</span>, n <span class='op'>=</span> <span class='fl'>5</span><span class='op'>)</span></pre>
 
     <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
     <table class="ref-arguments">
     <colgroup><col class="name" /><col class="desc" /></colgroup>
     <tr>
       <th>id</th>
-      <td><p>the article id</p></td>
+      <td><p>the article id in the description file</p></td>
     </tr>
     <tr>
       <th>n</th>
@@ -173,10 +169,6 @@
 <li><p><code>get_article_keywords</code>: a list with 2 elements: 1) a vector of keywords, and 2) a vector of author names</p></li>
 <li><p><code>get_reviewer_keywords</code>: a tibble of reviewer information from the googlesheet. Variables include email, gname (given name), fname (family name), and keywords</p></li>
 </ul>
-
-
-
-
 
     <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
 
