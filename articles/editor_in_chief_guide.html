@@ -4,200 +4,262 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>Editor-in-Chief's Guide • rj</title>
-<!-- jquery --><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script><!-- Bootstrap --><link href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.4.0/cosmo/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha256-nuL8/2cJ5NDSSwnKD8VqreErSWHtnEP9E7AySL+1ev4=" crossorigin="anonymous"></script><!-- bootstrap-toc --><link rel="stylesheet" href="../bootstrap-toc.css">
-<script src="../bootstrap-toc.js"></script><!-- Font Awesome icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/v4-shims.min.css" integrity="sha256-wZjR52fzng1pJHwx4aV2AO3yyTOXrcDW7jBpJtTwVxw=" crossorigin="anonymous">
-<!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/headroom.min.js" integrity="sha256-AsUX4SJE1+yuDu5+mAVzJbuYNPHj/WroHuZ8Ir/CkE0=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- pkgdown --><link href="../pkgdown.css" rel="stylesheet">
-<script src="../pkgdown.js"></script><meta property="og:title" content="Editor-in-Chief's Guide">
-<meta property="og:description" content="rj">
-<!-- mathjax --><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/config/TeX-AMS-MML_HTMLorMML.js" integrity="sha256-84DKXVJXs0/F8OTMzX4UR909+jtl4G7SPypPavF+GfA=" crossorigin="anonymous"></script><!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
+<script src="../deps/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="../deps/bootstrap-5.3.1/bootstrap.min.css" rel="stylesheet">
+<script src="../deps/bootstrap-5.3.1/bootstrap.bundle.min.js"></script><link href="../deps/Fira_Sans-0.4.10/font.css" rel="stylesheet">
+<link href="../deps/font-awesome-6.5.2/css/all.min.css" rel="stylesheet">
+<link href="../deps/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet">
+<script src="../deps/headroom-0.11.0/headroom.min.js"></script><script src="../deps/headroom-0.11.0/jQuery.headroom.min.js"></script><script src="../deps/bootstrap-toc-1.0.1/bootstrap-toc.min.js"></script><script src="../deps/clipboard.js-2.0.11/clipboard.min.js"></script><script src="../deps/search-1.0.0/autocomplete.jquery.min.js"></script><script src="../deps/search-1.0.0/fuse.min.js"></script><script src="../deps/search-1.0.0/mark.min.js"></script><!-- pkgdown --><script src="../pkgdown.js"></script><meta property="og:title" content="Editor-in-Chief's Guide">
 </head>
-<body data-spy="scroll" data-target="#toc">
-    <div class="container template-article">
-      <header><div class="navbar navbar-default navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <span class="navbar-brand">
-        <a class="navbar-link" href="../index.html">rj</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.2.20</span>
-      </span>
-    </div>
+<body>
+    <a href="#main" class="visually-hidden-focusable">Skip to contents</a>
 
-    <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
-<li>
-  <a href="../index.html">
-    <span class="fas fa-home fa-lg"></span>
-     
-  </a>
-</li>
-<li>
-  <a href="../reference/index.html">Reference</a>
-</li>
-<li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    Articles
-     
-    <span class="caret"></span>
-  </a>
-  <ul class="dropdown-menu" role="menu">
-<li>
-      <a href="../articles/associate_editors_guide.html">Associate Editors' Guide</a>
-    </li>
-    <li>
-      <a href="../articles/editor_in_chief_guide.html">Editor-in-Chief's Guide</a>
-    </li>
-    <li>
-      <a href="../articles/editors_guide.html">Editors' Guide</a>
-    </li>
-    <li>
-      <a href="../articles/special-issue-rules-and-guidelines.html">Special Issue Rules and Guidelines</a>
-    </li>
+
+    <nav class="navbar navbar-expand-lg fixed-top bg-primary" data-bs-theme="dark" aria-label="Site navigation"><div class="container">
+
+    <a class="navbar-brand me-2" href="../index.html">rj</a>
+
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.3.0.9000</small>
+
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div id="navbar" class="collapse navbar-collapse ms-3">
+      <ul class="navbar-nav me-auto">
+<li class="nav-item"><a class="nav-link" href="../reference/index.html">Reference</a></li>
+<li class="nav-item dropdown">
+  <button class="nav-link dropdown-toggle" type="button" id="dropdown-articles" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">Articles</button>
+  <ul class="dropdown-menu" aria-labelledby="dropdown-articles">
+<li><a class="dropdown-item" href="../articles/roles_and_responsibilities.html">Roles and Responsibilities</a></li>
+    <li><a class="dropdown-item" href="../articles/conflict_of_interest.html">Conflict of Interest</a></li>
+    <li><a class="dropdown-item" href="../articles/editor_in_chief_guide.html">Editor-in-Chief's Guide</a></li>
+    <li><a class="dropdown-item" href="../articles/editors_guide.html">Editors' Guide</a></li>
+    <li><a class="dropdown-item" href="../articles/post_publication_changes.html">Post-publication changes</a></li>
+    <li><a class="dropdown-item" href="../articles/associate_editors_guide.html">Associate Editors' Guide</a></li>
+    <li><a class="dropdown-item" href="../articles/issue_build_guide.html">Guide to building an issue</a></li>
+    <li><a class="dropdown-item" href="../articles/website_build_guide.html">Guide to Building the New Distill Web Site</a></li>
   </ul>
 </li>
-<li>
-  <a href="../news/index.html">Changelog</a>
-</li>
+<li class="nav-item"><a class="nav-link" href="../news/index.html">Changelog</a></li>
       </ul>
-<ul class="nav navbar-nav navbar-right"></ul>
+<ul class="navbar-nav">
+<li class="nav-item"><form class="form-inline" role="search">
+ <input class="form-control" type="search" name="search-input" id="search-input" autocomplete="off" aria-label="Search site" placeholder="Search for" data-search-index="../search.json">
+</form></li>
+      </ul>
 </div>
-<!--/.nav-collapse -->
+
+
   </div>
-<!--/.container -->
-</div>
-<!--/.navbar -->
+</nav><div class="container template-article">
 
-      
 
-      </header><script src="editor_in_chief_guide_files/accessible-code-block-0.0.1/empty-anchor.js"></script><script src="editor_in_chief_guide_files/htmlwidgets-1.5.4/htmlwidgets.js"></script><script src="editor_in_chief_guide_files/viz-1.8.2/viz.js"></script><link href="editor_in_chief_guide_files/DiagrammeR-styles-0.2/styles.css" rel="stylesheet">
-<script src="editor_in_chief_guide_files/grViz-binding-1.0.6.1/grViz.js"></script><div class="row">
-  <div class="col-md-9 contents">
-    <div class="page-header toc-ignore">
-      <h1 data-toc-skip>Editor-in-Chief’s Guide</h1>
-                        <h4 class="author">Di Cook</h4>
+
+
+<div class="row">
+  <main id="main" class="col-md-9"><div class="page-header">
+
+      <h1>Editor-in-Chief's Guide</h1>
             
-            <h4 class="date">2021-10-06</h4>
+            <h4 data-toc-skip class="date">Last updated: 2 January
+2026</h4>
       
-      
-      <div class="hidden name"><code>editor_in_chief_guide.Rmd</code></div>
 
+      <div class="d-none name"><code>editor_in_chief_guide.Rmd</code></div>
     </div>
 
     
     
-<div id="downloading-new-submissions-and-revisions" class="section level1">
-<h1 class="hasAnchor">
-<a href="#downloading-new-submissions-and-revisions" class="anchor"></a>Downloading new submissions and revisions</h1>
-<p>Articles are submitted through a <a href="https://forms.gle/ykj6QcoGQD5ctnA5A">Google form</a> which populates a <a href="https://docs.google.com/spreadsheets/d/15Tem82ikjHhNVccZGrHFVdzVjoxAmwaiNwaBE95wu6k/edit#gid=1671813370">Google sheet</a>. This sheet contains details of the submission, and also a zip file with the necessary files.</p>
-<p>On a regular basis, download newly submitted items:</p>
+<div class="section level2">
+<h2 id="new-submissions-and-revisions">New submissions and revisions<a class="anchor" aria-label="anchor" href="#new-submissions-and-revisions"></a>
+</h2>
+<div class="section level3">
+<h3 id="downloading-new-submissions-and-revisions">Downloading new submissions and revisions<a class="anchor" aria-label="anchor" href="#downloading-new-submissions-and-revisions"></a>
+</h3>
+<p>Articles are submitted through a <a href="https://forms.gle/Eqkf6cFJM3mjuxZUA" class="external-link">Google form</a> which
+populates a <a href="https://docs.google.com/spreadsheets/d/1Snt4SDkfyceoX_PPGm-9cB29DAw-dvnCjWHHOt5jS38" class="external-link">Google
+sheet</a>, and a <a href="https://drive.google.com/drive/folders/1azJouPrcOS9HxI2LCjBLHTWj6dx_OBqxiVgW30Zu7uUHD2c-Ge7ras_cLJlxT93NlaxpMd8i" class="external-link">Google
+drive</a>. This sheet contains details of the submission, and also a zip
+file with the necessary files; <code><a href="../reference/get_submissions.html">get_submissions()</a></code> will
+authenticate against both.</p>
+<p>Pre-2026 form, sheet and submission files can be found in the
+following links: <a href="https://forms.gle/ykj6QcoGQD5ctnA5A" class="external-link">Google
+form</a>, <a href="https://docs.google.com/spreadsheets/d/15Tem82ikjHhNVccZGrHFVdzVjoxAmwaiNwaBE95wu6k/edit#gid=1671813370" class="external-link">Google
+sheet</a>, and <a href="https://drive.google.com/drive/folders/0B2aFIue-Ar8dfmdVdHlpTnRndWhxQnNtR0o2YnoycDU1cVVzRlRaM0VSQWU1YUlnZlkyZEk?resourcekey=0-pzsHNE5mUiKuzB-VFmGD7g" class="external-link">Google
+drive</a>. These ones were owned by different individuals, so it is
+advised not to use these and should not be required unless searching for
+historical submissions. Note that if you are creating a new form, then
+you must manually add a column in Google sheet named “Submission ID”,
+change “Email Address” to “Email address” and the sheet name “Form
+Responses 1” to “Form responses 1” for the
+<code><a href="../reference/get_submissions.html">get_submissions()</a></code> to work. It is sensitive cases and
+changes to the column nmaes.</p>
+<p>On a regular (at least weekly) basis, download newly submitted
+items:</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="fu"><a href="../reference/get_submissions.html">get_submissions</a></span><span class="op">(</span><span class="op">)</span></code></pre></div>
-<p>This will create a new folder in the <code>Submissions</code> directory of the <code>articles</code> repo, and a <code>DESCRIPTION</code> file with the meta data.</p>
-<p>You should check that this file has been constructed correctly, and that the zip file has unpacked into the top level of the folder. Common missing items are the <code>Suppl:</code> line which should list the <code>.R</code> files and any data needed to reproduce the paper.</p>
+<code class="sourceCode R"><span><span class="fu"><a href="../reference/get_submissions.html">get_submissions</a></span><span class="op">(</span><span class="op">)</span></span></code></pre></div>
+<p>This will create a new folder in the <code>Submissions</code>
+directory of the <code>articles</code> repo, and a
+<code>DESCRIPTION</code> file with the meta data.</p>
+<p>You should check that this file has been constructed correctly, and
+that the zip file has unpacked into the top level of the folder. Common
+missing items are the <code>Suppl:</code> line which should list the
+<code>.R</code> files and any data needed to reproduce the paper.</p>
 </div>
-<div id="assigning-articles-to-an-ee" class="section level1">
-<h1 class="hasAnchor">
-<a href="#assigning-articles-to-an-ee" class="anchor"></a>Assigning articles to an EE</h1>
+<div class="section level3">
+<h3 id="check-relevance-and-reproducibility">Check relevance and reproducibility<a class="anchor" aria-label="anchor" href="#check-relevance-and-reproducibility"></a>
+</h3>
+<p>First check that the paper fits the <a href="https://journal.r-project.org/#article-types" class="external-link">scope of the
+journal</a>. If not, <code><a href="../reference/action.html">reject()</a></code> the paper.</p>
+<p>Then check that the paper is reproducible by either: (a) compiling
+the <code>Rmd</code> file; or (b) compiling both the LaTeX file and all
+<code>.R</code> files. If there are any problems, request a
+<code><a href="../reference/action.html">resubmission()</a></code> from the authors.</p>
 </div>
-<div id="workflow-and-operations" class="section level1">
-<h1 class="hasAnchor">
-<a href="#workflow-and-operations" class="anchor"></a>Workflow and operations</h1>
-<div id="workflow" class="section level2">
-<h2 class="hasAnchor">
-<a href="#workflow" class="anchor"></a>Workflow</h2>
-<div id="htmlwidget-af571db8c7bce21d59ab" style="width:768px;height:1152px;" class="grViz html-widget"></div>
-<script type="application/json" data-for="htmlwidget-af571db8c7bce21d59ab">{"x":{"diagram":"digraph {\n\ngraph [layout = \"dot\",\n       rankdir = \"TB\",\n       outputorder = \"edgesfirst\",\n       bgcolor = \"white\"]\n\nnode [fontname = \"Helvetica\",\n      fontsize = \"10\",\n      shape = \"circle\",\n      fixedsize = \"true\",\n      width = \"0.5\",\n      style = \"filled\",\n      fillcolor = \"aliceblue\",\n      color = \"gray70\",\n      fontcolor = \"gray50\"]\n\nedge [fontname = \"Helvetica\",\n     fontsize = \"8\",\n     len = \"1.5\",\n     color = \"gray80\",\n     arrowsize = \"0.5\"]\n\n  \"1\" [label = \"check for new submissions or revisions get_submissions()\", shape = \"rectangle\", width = \"4\", fontcolor = \"black\", fillcolor = \"#E5E5E5\"] \n  \"2\" [label = \"is this?\", shape = \"ellipse\", width = \"1\", fontcolor = \"black\", fillcolor = \"#FFA500\"] \n  \"3\" [label = \"examine article: should \n the paper progress \n to review?\", shape = \"rectangle\", width = \"2\", fontcolor = \"black\", fillcolor = \"#FA8072\"] \n  \"4\" [label = \"assign to an EE or to self\", shape = \"rectangle\", width = \"3\", fontcolor = \"black\", fillcolor = \"#E5E5E5\"] \n  \"5\" [label = \"acknowledge paper, Cc handling EE \n acknowledge_submission() \n acknowledge_revision()\", shape = \"rectangle\", width = \"3\", fontcolor = \"black\", fillcolor = \"#E5E5E5\"] \n  \"6\" [label = \"acknowledge revision received, \n Cc handling EE\", shape = \"rectangle\", width = \"3\", fontcolor = \"black\", fillcolor = \"#40E0D0\"] \n\"1\"->\"2\" [label = \".\"] \n\"2\"->\"3\" [label = \"new submission\"] \n\"3\"->\"4\" [label = \".\"] \n\"4\"->\"5\" [label = \".\"] \n\"2\"->\"6\" [label = \"revision\"] \n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<div class="section level3">
+<h3 id="acknowledge-submission-and-assigning-a-new-article-to-an-ee">Acknowledge submission and assigning a new article to an EE<a class="anchor" aria-label="anchor" href="#acknowledge-submission-and-assigning-a-new-article-to-an-ee"></a>
+</h3>
+<p>For revisions, use <code><a href="../reference/acknowledge_revision.html">acknowledge_revision()</a></code> to send an
+acknowledgement email to the authors, cc’ing the handling editor.</p>
+<p>For new submissions, choose one of the three active EE’s (i.e., not
+the previous EIC). To balance EE load, use <code><a href="../reference/assignments.html">assignments()</a></code> to
+see how many papers each EE is currently handling, and what has been
+assigned to them in recent months. As far as possible, take account of
+the relative expertise of each EE so that papers are assigned to the
+most appropriate person. Use
+<code>acknowledge_submission(editor = "XX")</code>. to send an
+acknowledgement email to the authors, cc’ing the chosen handling
+editor.</p>
+</div>
+<div class="section level3">
+<h3 id="check-progress-of-all-papers">Check progress of all papers<a class="anchor" aria-label="anchor" href="#check-progress-of-all-papers"></a>
+</h3>
+<p>The function <code><a href="../reference/report.html">report()</a></code> shows the status of all current
+papers being handled, by author and by status. Anything with 3 stars
+needs urgent attention.</p>
 </div>
 </div>
-<div id="search-for-new-editorial-board-members" class="section level1">
-<h1 class="hasAnchor">
-<a href="#search-for-new-editorial-board-members" class="anchor"></a>Search for new editorial board members</h1>
-<div id="executive-editors" class="section level2">
-<h2 class="hasAnchor">
-<a href="#executive-editors" class="anchor"></a>Executive editors</h2>
-<p>The EIC is responsible to navigating the search for a new EE. The search for a new editorial board member should begin in September, giving enough time to find a replacement before the outgoing member leaves at the end of December. Nominations for the new member are discussed by the editorial board first, and then preferably also with the advisory committee so that they can provide historical perspective.</p>
-<p>Once a shortlist of candidates is created, but before approaching anyone on the list, it should be sent to the R Foundation Board members (<a href="mailto:R-foundation-board@r-project.org" class="email">R-foundation-board@r-project.org</a>) for their feedback and approval. People on the list are then approached by the EIC or an EE, and once someone agrees, the EIC informs the members of the R Foundation (<a href="mailto:R-foundation-members@r-project.org" class="email">R-foundation-members@r-project.org</a>). The new editor is formally appointed by the R Foundation president.</p>
-<p>Once a new member is found, the following steps take place:</p>
+<div class="section level2">
+<h2 id="meetings">Meetings<a class="anchor" aria-label="anchor" href="#meetings"></a>
+</h2>
+<p>The editors meet roughly every month. The EIC is responsible for
+organizing these at mutually convenient times, taking account of the
+different timezones.</p>
+<p>The associate editors meet roughly every 3–4 months. The EIC is also
+responsible for organizing these meetings. It is best to organize two
+meetings, 12 hours apart, to allow for different timezones.</p>
+</div>
+<div class="section level2">
+<h2 id="new-editors">New editors<a class="anchor" aria-label="anchor" href="#new-editors"></a>
+</h2>
+<div class="section level3">
+<h3 id="new-executive-editor">New executive editor<a class="anchor" aria-label="anchor" href="#new-executive-editor"></a>
+</h3>
+<p>The EIC is responsible to navigating the search for a new EE. The
+search for a new editorial board member should begin in the middle of
+the year, giving enough time to find a replacement before the outgoing
+member leaves at the end of December. Nominations for the new member are
+discussed by the editorial board first, and then preferably also with
+the advisory committee so that they can provide historical
+perspective.</p>
+<p>Once a shortlist of candidates is created, but before approaching
+anyone on the list, it should be sent to the R Foundation Board members
+(<a href="mailto:R-foundation-board@r-project.org" class="email">R-foundation-board@r-project.org</a>) for their feedback
+and approval. People on the list are then approached by the EIC or an
+EE, and once someone agrees, the EIC informs the members of the R
+Foundation (<a href="mailto:R-foundation-members@r-project.org" class="email">R-foundation-members@r-project.org</a>). The new editor is
+formally appointed by the R Foundation president.</p>
+<p>Once a new EE is found, the following steps take place:</p>
 <ul>
-<li>The EIC informs Martin Maechler of the new board member</li>
-<li>The incoming board member requests access to the mailing lists by visiting <a href="https://stat.ethz.ch/mailman/listinfo/r-journal-editors" class="uri">https://stat.ethz.ch/mailman/listinfo/r-journal-editors</a> and <a href="https://stat.ethz.ch/mailman/listinfo/r-journal-advisory" class="uri">https://stat.ethz.ch/mailman/listinfo/r-journal-advisory</a>.</li>
-<li>The outgoing member unsubscribes from r-journal-editors by visiting the web page above, but should remain subscribed to r-journal-advisory</li>
-<li>New EE is added to the Editors team at <code>https://github.com/rjournal</code> and to the <code>rjournal.slack.com</code> organisation.</li>
+<li>The new EE is added to the Editors team, with role changed as owner,
+at <code>https://github.com/rjournal</code> and to the
+<code>rjournal.slack.com</code> organisation.</li>
+<li>The new EE is added to the <code>editors.csv</code> file in the
+<code>inst</code> folder of the <code>rj</code> package.</li>
+<li>Onboard the new EE.</li>
 </ul>
-<p>The EIC may take on outstanding handling editor duties of the outgoing member.</p>
+<p>The EIC may take on outstanding handling editor duties of the
+outgoing member.</p>
 </div>
-<div id="associate-editors" class="section level2">
-<h2 class="hasAnchor">
-<a href="#associate-editors" class="anchor"></a>Associate editors</h2>
-<p>The EIC is responsible for recruiting and setting up the GitHub repos for AEs. Ideally, keywords of submissions over the past year are summarised, and compared with keywords of current AEs. New AEs should be recruited for topics where there is the most need.</p>
-</div>
-</div>
-<div id="making-articles-available-online" class="section level1">
-<h1 class="hasAnchor">
-<a href="#making-articles-available-online" class="anchor"></a>Making articles available online</h1>
-</div>
-<div id="web-site" class="section level1">
-<h1 class="hasAnchor">
-<a href="#web-site" class="anchor"></a>Web site</h1>
-</div>
-<div id="obtaining-dois-for-articles-in-new-issue" class="section level1">
-<h1 class="hasAnchor">
-<a href="#obtaining-dois-for-articles-in-new-issue" class="anchor"></a>Obtaining DOIs for articles in new issue</h1>
-<p>This is done once the issue is built.</p>
-<p><strong>Note:</strong> It is easier if the December issue gets their slug BEFORE the end of the year, because the DOI links assume the issue date, which is the December the year before it actually gets published. If the slugs are in the new year, you need to update links in a tricky way.</p>
-<p>You need to generate the <code>xml</code> for the DOI links by:</p>
-<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="co"># From the articles directory</span>
-<span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va">rj</span><span class="op">)</span>
-<span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/viking/r-yaml/">yaml</a></span><span class="op">)</span>
-<span class="co"># Assuming the rjournal.github.io is a parallel directory</span>
-<span class="va">cfg</span> <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/pkg/yaml/man/yaml.load.html">yaml.load_file</a></span><span class="op">(</span><span class="st">"../rjournal.github.io/_config.yml"</span><span class="op">)</span>
-<span class="va">issue</span> <span class="op">=</span> <span class="va">cfg</span><span class="op">$</span><span class="va">issue</span><span class="op">[[</span><span class="fu"><a href="https://rdrr.io/r/base/length.html">length</a></span><span class="op">(</span><span class="va">cfg</span><span class="op">$</span><span class="va">issue</span><span class="op">)</span><span class="op">]</span><span class="op">]</span> <span class="co"># last one is typically desired</span>
-<span class="fu"><a href="https://rdrr.io/r/base/print.html">print</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/list.html">list</a></span><span class="op">(</span>volume<span class="op">=</span><span class="va">issue</span><span class="op">$</span><span class="va">volume</span>, num<span class="op">=</span><span class="va">issue</span><span class="op">$</span><span class="va">num</span><span class="op">)</span><span class="op">)</span>  <span class="co"># double check</span>
-<span class="fu">rj</span><span class="fu">:::</span><span class="fu">create_doi_from_issue</span><span class="op">(</span><span class="va">issue</span>, outdir<span class="op">=</span><span class="st">"./"</span><span class="op">)</span>  <span class="co"># Change outdir to your preference</span></code></pre></div>
-<p>This will generate the file <code>DOI-yr-num.xml</code> where <code>yr</code> is the year of the issue and <code>num</code> is the number (1 or 2). Then you need to login into <a href="https://doi.crossref.org/" class="uri">https://doi.crossref.org/</a> using username <code>rfou</code> and password provided by previous editor.</p>
-<p>Click on “Upload submissions”, then “Metadata” and upload the file.</p>
-<div id="check-for-orphaned-papers" class="section level2">
-<h2 class="hasAnchor">
-<a href="#check-for-orphaned-papers" class="anchor"></a>Check for orphaned papers</h2>
+<div class="section level3">
+<h3 id="new-associate-editors">New associate editors<a class="anchor" aria-label="anchor" href="#new-associate-editors"></a>
+</h3>
+<p>The EIC is responsible for recruiting new AEs, after discussion with
+all editors. Ideally, keywords of submissions over the past year are
+summarised, and compared with keywords of current AEs. New AEs should be
+recruited for topics where there is the most need.</p>
+<p>To invite a new AE, the EIC should send an email to the candidate,
+with a brief description of the journal and the role, asking if they
+would be interested in joining the editorial board as an AE. If they
+agree, the EIC should ask them to complete the onboarding form <a href="https://github.com/rjournal/ae-articles-template" class="external-link">here</a>. This
+form is associated with the <a href="mailto:rjournal.submission@gmail.com" class="email">rjournal.submission@gmail.com</a> and responses can be
+found <a href="https://docs.google.com/spreadsheets/d/1_J7rawwkXjjO3BbhTwoSBiwwevHEEJWaSQZ2RMdcA0Y/edit?resourcekey=&amp;gid=914313391#gid=914313391" class="external-link">here</a>.</p>
+<p>Once a new AE is appointed, the following steps take place:</p>
+<ul>
+<li>The EIC informs the other EEs.</li>
+<li>The EIC sets up a GitHub repo of the form ae-articles-xx where xx is
+the initials of the AE using the template at <a href="https://github.com/rjournal/ae-articles-template" class="external-link uri">https://github.com/rjournal/ae-articles-template</a>
+</li>
+<li>The new AE is added to the <code>associate-editors.csv</code> file
+in the <code>inst</code> folder of the <code>rj</code> package.</li>
+</ul>
 </div>
 </div>
-  </div>
+<div class="section level2">
+<h2 id="handover-to-new-editor-in-chief">Handover to new Editor-in-Chief<a class="anchor" aria-label="anchor" href="#handover-to-new-editor-in-chief"></a>
+</h2>
+<ul>
+<li>Update the editorial board on the <a href="https://rjournal.github.io/editors.html" class="external-link">R Journal
+website</a>.</li>
+<li>Update the <a href="https://en.wikipedia.org/wiki/The_R_Journal" class="external-link">R
+Journal Wikipedia page</a> with the change of editors.</li>
+<li>Ask Martin Maechler to forward <a href="mailto:r-journal@r-project.org" class="email">r-journal@r-project.org</a> to the new EIC’s preferred
+email address.</li>
+<li>Grant permission to the new EIC to access the <a href="https://docs.google.com/spreadsheets/d/1Snt4SDkfyceoX_PPGm-9cB29DAw-dvnCjWHHOt5jS38" class="external-link">Google
+sheet</a>, and <a href="https://drive.google.com/drive/folders/1azJouPrcOS9HxI2LCjBLHTWj6dx_OBqxiVgW30Zu7uUHD2c-Ge7ras_cLJlxT93NlaxpMd8i" class="external-link">Google
+drive</a> used for submissions.</li>
+<li>Hand over the <code>rjournal.submission</code> Google account. This
+account owns the google forms and spreadsheets used by the editors.</li>
+<li>Update the front page of the <a href="https://journal.r-project.org/" class="external-link">R Journal website</a> with the
+latest graphics.</li>
+</ul>
+</div>
+<div class="section level2">
+<h2 id="archives">Archives<a class="anchor" aria-label="anchor" href="#archives"></a>
+</h2>
+<p>[Not done since 2019. Is it needed?]</p>
+<p>In the <code>articles</code> repo, the <code>Proofs</code> folder
+contains all the supporting files of Accepted articles. The
+<code>Rejected</code> folder contains all of the supporting files for
+rejected submisisons.</p>
+<p>From time to time, papers with dates older than two years should be
+moved to the <code>archive</code> repo, to make the
+<code>articles</code> repo smaller. Recommend that this is done at the
+hand-over of the EiC role at the end of each year.</p>
+</div>
+  </main><aside class="col-md-3"><nav id="toc" aria-label="Table of contents"><h2>On this page</h2>
+    </nav></aside>
+</div>
 
-  <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
 
-        <nav id="toc" data-toggle="toc"><h2 data-toc-skip>Contents</h2>
-    </nav>
+
+    <footer><div class="pkgdown-footer-left">
+  <p>Developed by Editor-in-Chief.</p>
 </div>
 
+<div class="pkgdown-footer-right">
+  <p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.2.0.</p>
+</div>
+
+    </footer>
 </div>
 
 
 
-      <footer><div class="copyright">
-  <p>Developed by  Editor-in-Chief.</p>
-</div>
-
-<div class="pkgdown">
-  <p>Site built with <a href="https://pkgdown.r-lib.org/">pkgdown</a> 1.6.1.</p>
-</div>
-
-      </footer>
-</div>
-
-  
 
 
   </body>
